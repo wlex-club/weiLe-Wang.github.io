@@ -1,0 +1,59 @@
+#初始化一个项目
+
+例如: mkdir webpack-demo
+     npm init -y
+     npm install webpack webpack-cli --save-dev 添加webpack的依赖 // webpack使用3.版本的
+     npm i babel-core babel-loader babel-preset-env --save-dev
+
+     创建src/core/index.js、index.html文件
+         dist：作为打包后的文件目录
+
+
+     创建webpack.config.js文件,设置入口文件entry,出口文件...
+     ```
+     module.exports = {
+         entry: './src/core/vue.js',
+         output: {
+             path: path.resolve(__dirname, './dist'),
+             publicPath: '/dist/',
+             filename: 'vue.js'
+         },
+         module: {
+             rules: [
+                 {
+                     test: /\.js$/,
+                     loader: 'babel-loader',
+                     exclude: /node_modules/
+                 },
+                 {
+                     test: /\.(png|jpg|gif|svg)$/,
+                     loader: 'file-loader',
+                     options: {
+                         name: '[name].[ext]?[hash]'
+                     }
+                 }
+             ]
+         },
+         devServer: {
+             historyApiFallback: true,
+             noInfo: true
+         },
+         performance: {
+             hints: false
+         },
+         devtool: '#eval-source-map'
+     }
+     ```
+
+
+     创建.babelrc文件并进行配置
+     ```
+     {
+       "presets": [
+         ["env", { "modules": false }]
+       ]
+     }
+     ```
+
+     npm run dev
+

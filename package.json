@@ -1,0 +1,33 @@
+{
+  "name": "weiLe-Wang.github.io",
+  "version": "1.0.0",
+  "description": "the analysis of vuejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weiLe-Wang/weiLe-Wang.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weiLe-Wang/weiLe-Wang.github.io/issues"
+  },
+  "homepage": "https://github.com/weiLe-Wang/weiLe-Wang.github.io#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.2.0",
+    "file-loader": "^1.1.4",
+    "webpack": "^3.12.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^2.9.1"
+  }
+}

@@ -1,0 +1,30 @@
+#在index.html中 创建一个对象
+
+   ```
+   new Vue({
+      el:'#app'
+   )}
+   ```
+   刷新下页面会在控制台提示Vue is not define,因此我们需要在src/core index.js文件中创建一个Vue函数/对象
+
+   # 在vue源码中入口在src/core/instance/index.js中
+   ```
+   function Vue (options) {
+     if (process.env.NODE_ENV !== 'production' &&
+       !(this instanceof Vue)
+     ) {
+       warn('Vue is a constructor and should be called with the `new` keyword')
+     }
+     this._init(options)
+   }
+   ```
+   照葫芦画瓢...一梭子撸
+   传入的参数options实质上就是传入的new Vue对象，el,data,methods...
+   创建initMixin文件-> index.js 创建initMixin,_init方法，vue方法通过原型链的方式,进行拓展:_init()
+
+   在_init函数中主要定义了一些变量，合并设置, 引入初始化生命周期，初始化时间，render函数,回调钩子等，
+   ...
+   重点分析一下initState()来做了哪些事情,回到代码中
+
+
+
