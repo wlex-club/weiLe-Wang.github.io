@@ -9,7 +9,7 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
-    entry: './src/core/index.js',
+    entry: './src/core/main.ts',
     output: {
         path: path.resolve(__dirname, './dist'),
         publicPath: '/dist/',
@@ -28,11 +28,18 @@ module.exports = {
                 options: {
                     name: '[name].[ext]?[hash]'
                 }
+            }, {
+                test: /\.ts$/,
+                exclude: /node_modules|vue\/src/,
+                loader: 'ts-loader',
+                options: {
+                    appendTsSuffixTo: [/\.vue$/]
+                }
             }
         ]
     },
     devServer: {
-        hot:true
+        hot: true
     },
     performance: {
         hints: false

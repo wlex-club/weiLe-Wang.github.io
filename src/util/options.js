@@ -4,11 +4,11 @@
  * @describe
  * @example
  */
-export function mergeOptions(
-    parent:Object,
-    child:Object,
-    vm?:Comment
-):Object{
-    console.log('10')
-}
+// export function mergeOptions(
+//     parent:Object,
+//     child:Object,
+//     vm?:Comment
+// ):Object{
+//     console.log('10')
+// }
 
