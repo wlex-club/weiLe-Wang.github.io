@@ -1,0 +1,12 @@
+#ts相关
+
+如何在‘window’上明确设置新属性
+
+```
+declare global{
+  interface Window {MyNameSpace:any;}
+}
+
+window.MyNamespace = window.MyNamespace || {}
+
+```
