@@ -11,6 +11,7 @@ import {warnOnce} from "../shared/utils";
 * 生命周期 1:->new Vue()
 * */
 function Vue(options) {
+    console.log('options',options)
     if (process.env.NODE_ENV !== 'production' && !(this instanceof Vue)) {
         warnOnce('Vue is a constructor and should be called with the `new` keyword')
     }

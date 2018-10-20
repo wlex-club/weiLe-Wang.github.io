@@ -2,39 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b98ae5e-61d9-4601-ad0a-a9e1d2e55026" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/entry/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entry/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/runtime/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/runtime/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/array/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/compiler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/core/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/core/index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/core/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/core/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/dep/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/error/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/events/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/initData/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/initMethods/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/initMixin/initVue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/initProps/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/initState/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/interface/component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/lang/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/lifecycle/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/observer/array.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/observer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/observer/watcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/props/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/shared/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/test.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/tools/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vue.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vue.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entry/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entry/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/initMixin/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/runtime/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/runtime/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/array/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/compiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/core/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/core/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/core/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/core/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/dep/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dep/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/error/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/error/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/events/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/events/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/initData/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/initData/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/initMethods/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/initMethods/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/initMixin/initVue.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/initMixin/initVue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/initProps/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/initProps/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/initState/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/initState/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/interface/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/interface/component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/lang/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/lifecycle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lifecycle/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/observer/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/observer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/observer/watcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/watcher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/props/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/props/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/shared/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/test.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/tools/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/options.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -52,62 +55,38 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="525">
+              <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/main.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/runtime/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entry/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/dep/index.js">
+      <file leaf-file-name="vue.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/vue.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/store/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/runtime/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="213">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -138,17 +117,19 @@
         <option value="$PROJECT_DIR$/doc/2.创建一个函数Vue" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/src/util/options.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/initMixin/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/entry/runtime.ts" />
-        <option value="$PROJECT_DIR$/src/core/main.ts" />
         <option value="$PROJECT_DIR$/src/entry/index.ts" />
         <option value="$PROJECT_DIR$/src/runtime/index.js" />
         <option value="$PROJECT_DIR$/src/runtime/index.ts" />
         <option value="$PROJECT_DIR$/src/entry/index.js" />
+        <option value="$PROJECT_DIR$/src/core/main.ts" />
+        <option value="$PROJECT_DIR$/src/core/vue.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/store/index.js" />
       </list>
     </option>
   </component>
@@ -173,7 +154,6 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="835" />
@@ -206,6 +186,12 @@
               <item name="weiLe-Wang.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="weiLe-Wang.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weiLe-Wang.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -226,11 +212,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/desc" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -259,35 +246,35 @@
       <workItem from="1539788950858" duration="1785000" />
       <workItem from="1539831710048" duration="2606000" />
       <workItem from="1539843192808" duration="10803000" />
-      <workItem from="1540016017342" duration="76000" />
+      <workItem from="1540016017342" duration="2490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26528000" />
+    <option name="totallyTimeSpent" value="28942000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="23" width="1440" height="835" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="835" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18745595" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18745595" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.43776223" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.43776223" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -311,31 +298,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/src/entry/index.js" />
-        <option value="$PROJECT_DIR$/src/runtime/index.js" />
-      </list>
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/runtime/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -588,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -616,24 +576,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/entry/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -665,10 +611,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dep/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="213">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
